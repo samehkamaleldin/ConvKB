@@ -9,7 +9,7 @@ from model import ConvKB
 # Parameters
 # ==================================================
 tf.flags.DEFINE_string("data", "./data/", "Data sources.")
-tf.flags.DEFINE_string("run_folder", "../../../../", "Data sources.")
+tf.flags.DEFINE_string("run_folder", "./", "Data sources.")
 tf.flags.DEFINE_string("name", "WN18RR", "Name of the dataset.")
 
 tf.flags.DEFINE_integer("embedding_dim", 50, "Dimensionality of character embedding")
