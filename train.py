@@ -87,7 +87,6 @@ with tf.Graph().as_default():
     with sess.as_default():
         global_step = tf.Variable(0, name="global_step", trainable=False)
 
-
         cnn = ConvKB(
             sequence_length=x_valid.shape[1], #3
             num_classes=y_valid.shape[1], #1
@@ -102,44 +101,13 @@ with tf.Graph().as_default():
             useConstantInit=FLAGS.useConstantInit)
 
         # Define Training procedure
-        #optimizer = tf.contrib.opt.NadamOptimizer(1e-3)
         optimizer = tf.train.AdamOptimizer(learning_rate=FLAGS.learning_rate)
-        #optimizer = tf.train.RMSPropOptimizer(learning_rate=FLAGS.learning_rate)
-        #optimizer = tf.train.GradientDescentOptimizer(learning_rate=FLAGS.learning_rate)
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
-   
-        # Keep track of gradient values and sparsity (optional)
-        # grad_summaries = []
-        # for g, v in grads_and_vars:
-        #     if g is not None:
-        #         grad_hist_summary = tf.summary.histogram("{}/grad/hist".format(v.name), g)
-        #         sparsity_summary = tf.summary.scalar("{}/grad/sparsity".format(v.name), tf.nn.zero_fraction(g))
-        #         grad_summaries.append(grad_hist_summary)
-        #         grad_summaries.append(sparsity_summary)
-        # grad_summaries_merged = tf.summary.merge(grad_summaries)
-   
-        # Output directory for models and summaries
 
+        # Output directory for models and summaries
         out_dir = os.path.abspath(os.path.join(FLAGS.run_folder, "runs", FLAGS.model_name))
         print("Writing to {}\n".format(out_dir))
-   
-        # # Summaries for loss and accuracy
-        # loss_summary = tf.summary.scalar("loss", cnn.loss)
-        #
-        # # Train Summaries
-        # train_summary_op = tf.summary.merge([loss_summary, grad_summaries_merged])
-        # train_summary_dir = os.path.join(out_dir, "summaries", "train")
-        # train_summary_writer = tf.summary.FileWriter(train_summary_dir, sess.graph)
-        #
-        # # Dev summaries
-        # dev_summary_op = tf.summary.merge([loss_summary])
-        # dev_summary_dir = os.path.join(out_dir, "summaries", "dev")
-        # dev_summary_writer = tf.summary.FileWriter(dev_summary_dir, sess.graph)
-        #
-        # test_summary_op = tf.summary.merge([loss_summary])
-        # test_summary_dir = os.path.join(out_dir, "summaries", "test")
-        # test_summary_writer = tf.summary.FileWriter(test_summary_dir, sess.graph)
    
         # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
         checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
@@ -147,9 +115,6 @@ with tf.Graph().as_default():
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
 
-#         # Write vocabulary
-#         vocab_processor.save(os.path.join(out_dir, "vocab"))
-   
         # Initialize all variables
         sess.run(tf.global_variables_initializer())
          
@@ -163,13 +128,12 @@ with tf.Graph().as_default():
               cnn.dropout_keep_prob: FLAGS.dropout_keep_prob,
 
             }
-            #_, step, summaries, loss = sess.run([train_op, global_step, train_summary_op, cnn.loss], feed_dict)
             _, step, loss = sess.run([train_op, global_step, cnn.loss], feed_dict)
-            #time_str = datetime.datetime.now().isoformat()
-            #print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
-            #train_summary_writer.add_summary(summaries, step)
+            time_str = datetime.datetime.now().isoformat()
+            print("{}: step {}, loss {:g}".format(time_str, step, loss))
+
                   
-        #Predict function to predict scores for test data
+        # Predict function to predict scores for test data
         def predict(x_batch, y_batch, writer=None):
             feed_dict = {
               cnn.input_x: x_batch,
@@ -177,12 +141,7 @@ with tf.Graph().as_default():
               cnn.dropout_keep_prob: 1.0,
 
             }
-            #step, summaries, scores, _ = sess.run([global_step, dev_summary_op, cnn.predictions, cnn.loss], feed_dict)
             step, scores, _ = sess.run([global_step, cnn.predictions, cnn.loss], feed_dict)
-            #_ = datetime.datetime.now().isoformat()
-            # if writer:
-            #     writer.add_summary(summaries, step)
-            
             return scores
         #
 
@@ -192,14 +151,8 @@ with tf.Graph().as_default():
                 x_batch, y_batch = train_batch()
                 train_step(x_batch, y_batch)
                 current_step = tf.train.global_step(sess, global_step)
-                
-                # if current_step % 10000 == 0:
-                #     if FLAGS.cls_or_pred == 'prediction':
-                #         print("\nEvaluating the link prediction task for the loss on the valid set at step", current_step)
-                #         predict(x_valid, y_valid, writer=dev_summary_writer)
-            
+
             if epoch > 0:
                 if epoch % FLAGS.saveStep == 0:
                     path = cnn.saver.save(sess, checkpoint_prefix, global_step=epoch)
                     print("Saved model checkpoint to {}\n".format(path))
-
