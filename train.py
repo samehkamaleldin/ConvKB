@@ -109,7 +109,7 @@ with tf.Graph().as_default():
         # Output directory for models and summaries
         out_dir = os.path.abspath(os.path.join(FLAGS.run_folder, "runs", FLAGS.model_name))
         print("Writing to {}\n".format(out_dir))
-   
+
         # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
         checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
         checkpoint_prefix = os.path.join(checkpoint_dir, "model")
@@ -118,29 +118,26 @@ with tf.Graph().as_default():
 
         # Initialize all variables
         sess.run(tf.global_variables_initializer())
-         
+
         def train_step(x_batch, y_batch):
             """
             A single training step
             """
             feed_dict = {
               cnn.input_x: x_batch,
-              cnn.input_y: y_batch,
-              cnn.dropout_keep_prob: FLAGS.dropout_keep_prob,
-
+              cnn.input_y: y_batch
             }
+
             _, step, loss = sess.run([train_op, global_step, cnn.loss], feed_dict)
             time_str = datetime.datetime.now().isoformat()
             print("{}: step {}, loss {:g}".format(time_str, step, loss))
 
-                  
+
         # Predict function to predict scores for test data
         def predict(x_batch, y_batch, writer=None):
             feed_dict = {
               cnn.input_x: x_batch,
-              cnn.input_y: y_batch,
-              cnn.dropout_keep_prob: 1.0,
-
+              cnn.input_y: y_batch
             }
             step, scores, _ = sess.run([global_step, cnn.predictions, cnn.loss], feed_dict)
             return scores
