@@ -6,6 +6,7 @@ import time
 import datetime
 from builddata import *
 from model import ConvKB
+
 # Parameters
 # ==================================================
 tf.flags.DEFINE_string("data", "./data/", "Data sources.")
