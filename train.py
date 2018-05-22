@@ -153,12 +153,12 @@ with tf.Graph().as_default():
                 batch_losses.append(b_loss)
                 current_step = tf.train.global_step(sess, global_step)
 
-            epoch_loss = np.mean(batch_losses)
-            epoch_losses.append(epoch_losses)
+            loss_ep = np.mean(batch_losses)
+            epoch_losses.append(loss_ep)
 
             time_str = datetime.datetime.now().isoformat(' ')
             print("%s - %s - %s : epoch: %-3d - loss: %1.4f - avg(loss): %1.4f - std(loss): %1.4f" %
-                  (time_str, cnn.__name__, FLAGS.name, epoch, epoch_loss, np.mean(epoch_losses), np.std(epoch_losses)))
+                  (time_str, cnn.__class__.__name__, FLAGS.name, epoch, loss_ep, np.mean(epoch_losses), np.std(epoch_losses)))
 
             if epoch > 0:
                 if epoch % FLAGS.saveStep == 0:
