@@ -129,8 +129,7 @@ with tf.Graph().as_default():
             }
 
             _, step, loss = sess.run([train_op, global_step, cnn.loss], feed_dict)
-            time_str = datetime.datetime.now().isoformat()
-            print("{}: step {}, loss {:g}".format(time_str, step, loss))
+            return loss
 
 
         # Predict function to predict scores for test data
@@ -145,10 +144,20 @@ with tf.Graph().as_default():
 
         num_batches_per_epoch = int((data_size - 1) / FLAGS.batch_size) + 1
         for epoch in range(FLAGS.num_epochs):
+            batch_losses = []
+            epoch_losses = []
             for batch_num in range(num_batches_per_epoch):
                 x_batch, y_batch = train_batch()
-                train_step(x_batch, y_batch)
+                b_loss = train_step(x_batch, y_batch)
+                batch_losses.append(b_loss)
                 current_step = tf.train.global_step(sess, global_step)
+
+            epoch_loss = np.mean(batch_losses)
+            epoch_losses.append(epoch_losses)
+
+            time_str = datetime.datetime.now().isoformat(' ')
+            print("%s - %s - %s : epoch: %-3d - loss: %1.4f - avg(loss): %1.4f - std(loss): %1.4f" %
+                  (time_str, cnn.__name__, FLAGS.name, epoch, epoch_loss, np.mean(epoch_losses), np.std(epoch_losses)))
 
             if epoch > 0:
                 if epoch % FLAGS.saveStep == 0:
