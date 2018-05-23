@@ -16,6 +16,8 @@ class ConvKB(object):
         self.input_y = tf.placeholder(tf.float32, [batch_size, num_classes], name="input_y")
         self.dropout_keep_prob = tf.placeholder(tf.float32, name="dropout_keep_prob")
 
+        xavier_init = tf.contrib.layers.xavier_initializer(seed=1234)
+
         # Keeping track of l2 regularization loss (optional)
         l2_loss = tf.constant(0.0)
 
@@ -28,10 +30,15 @@ class ConvKB(object):
         # Create a convolutions
         filter_size = 1
         with tf.name_scope("convolutions"):
-            pos = tf.ones([2, filter_size, 1, num_filters]) / 10
-            neg = tf.ones([1, filter_size, 1, num_filters]) * -1/10
-            weight_init = tf.concat([pos, neg], axis=0)
-            W = tf.get_variable(name="W3", initializer=weight_init)
+            if useConstantInit:
+                pos = tf.ones([2, filter_size, 1, num_filters]) / 10
+                neg = tf.ones([1, filter_size, 1, num_filters]) * -1/10
+                weight_init = tf.concat([pos, neg], axis=0)
+                W = tf.get_variable(name="W3", initializer=weight_init)
+            else:
+                weight_init = xavier_init
+                W = tf.get_variable(name="W3", shape=[3, filter_size, 1, num_filters], initializer=weight_init)
+
             b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b")
             conv = tf.nn.conv2d(self.embedded_chars_expanded, W, strides=[1, 1, 1, 1], padding="VALID", name="conv")
             self.h_pool = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu")
@@ -40,8 +47,6 @@ class ConvKB(object):
 
         # transforming dense to score
         with tf.name_scope("output"):
-
-            xavier_init = tf.contrib.layers.xavier_initializer(seed=1234)
             W = tf.get_variable("W", shape=[total_dims, num_classes], initializer=xavier_init)
             b = tf.Variable(tf.constant(0.0, shape=[num_classes]), name="b")
 
