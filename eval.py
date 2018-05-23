@@ -112,7 +112,8 @@ if FLAGS.decode == False:
                         if _line.strip() != '':
                             lstHT.append(list(map(float, _line.strip().split())))
             lstHT = np.array(lstHT)
-            print(_file, 'mr, mrr, hits@10 --> ',  np.sum(lstHT, axis=0)/(2 * len_test))
+            mr, mrr, h10 = tuple(list(np.sum(lstHT, axis=0)/(2 * len_test)))
+            print(_file, " --------- MR: %1.4f - MRR: %1.4f - H@10: %1.4f" % (mr, mrr, h10))
 
         print('------------------------------------')
 
