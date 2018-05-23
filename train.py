@@ -144,9 +144,9 @@ with tf.Graph().as_default():
         #
 
         num_batches_per_epoch = int((data_size - 1) / FLAGS.batch_size) + 1
+        epoch_losses = []
         for epoch in range(FLAGS.num_epochs):
             batch_losses = []
-            epoch_losses = []
             for batch_num in range(num_batches_per_epoch):
                 x_batch, y_batch = train_batch()
                 b_loss = train_step(x_batch, y_batch)
