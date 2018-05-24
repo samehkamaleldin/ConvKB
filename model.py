@@ -28,21 +28,18 @@ class ConvKB(object):
             self.embedded_chars_expanded = tf.expand_dims(self.embedded_chars, -1)
 
         # Create a convolutions
-        filter_size = 1
+        filter_size = 3
         with tf.name_scope("convolutions"):
-            if useConstantInit:
-                pos = tf.ones([2, filter_size, 1, num_filters]) / 10
-                neg = tf.ones([1, filter_size, 1, num_filters]) * -1/10
-                weight_init = tf.concat([pos, neg], axis=0)
-                W = tf.get_variable(name="W3", initializer=weight_init)
-            else:
-                weight_init = xavier_init
-                W = tf.get_variable(name="W3", shape=[3, filter_size, 1, num_filters], initializer=weight_init)
+            pos = tf.ones([2, filter_size, 1, num_filters]) / 10
+            neg = tf.ones([1, filter_size, 1, num_filters]) * -1/10
+            weight_init = tf.concat([pos, neg], axis=0)
 
+            W = tf.get_variable(name="W3", initializer=weight_init)
             b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b")
+
             conv = tf.nn.conv2d(self.embedded_chars_expanded, W, strides=[1, 1, 1, 1], padding="VALID", name="conv")
             self.h_pool = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu")
-            total_dims = embedding_size * num_filters
+            total_dims = (embedding_size - filter_size + 1) * num_filters
             self.dense_vectors = tf.reshape(self.h_pool, [-1, total_dims])
 
         # transforming dense to score
