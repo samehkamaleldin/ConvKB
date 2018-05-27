@@ -63,9 +63,6 @@ http://ovh.easyview.eu/hls/drama.m3u8
 #EXTINF:-1 tvg-logo="https://www.comedy.co.uk/images/library/comedies/300/c/channel_e4.jpg" group-title="UK",E4
 https://ovh.easyview.eu/hls/e4.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://ocdn.eu/images/program-tv/NTU7MDA_/e7114237dc0731c7dd660c32d6822432.png" group-title="UK",English Club TV
-http://163.172.148.123:8081/RuOIYxwHD7sQiL2MnAnBaWaJsoF2Q4f9m0D43wVo2WsoRd9nc2NN6zBGJRkGcL/live/engclub_id86425/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://logo-load.com/uploads/posts/2016-04/1459694417_extreme-sports-logo.jpg" group-title="UK",Extreme Sports Channel
 http://playlist.onlybest.tv/ru/channel/f772b8505cfea04b38985616da5f973f/47/index.m3u8
 
@@ -86,9 +83,6 @@ http://wowza2.mysoltv.com:1992/UK_ENG_history/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Home_logo_%28UKTV%29.svg/1200px-Home_logo_%28UKTV%29.svg.png" group-title="UK",Home
 https://ovh.easyview.eu/hls/home.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.horrortalk.com/images/news/_tv/clout/horror-channel/horror-channel-banner.jpg" group-title="UK",Horror Channel
-http://nyc01.netcasterstream.com:8081/live/horror/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://pmcdeadline2.files.wordpress.com/2013/01/media_new_itv_logo__130122141401.jpg" group-title="UK",ITV 
 https://ovh.easyview.eu/hls/itv.m3u8
@@ -111,40 +105,13 @@ https://ovh.easyview.eu/hls/itvbe.m3u8
 #EXTINF:-1 tvg-logo="http://www.unichromecreative.co.uk/wp/wp-content/uploads/2015/12/ITV-Encore-logo.jpg" group-title="UK",ITV Encore
 https://ovh.easyview.eu/hls/itvencore.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/lhHx6by.png" group-title="UK",Jewellery Maker
-http://edge01.cdn.aws.subset.host/JewelleryMakerLive/JewelleryMakerLive/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/OiZowUH.png" group-title="UK",Kool London Radio
-http://w10.streamgb.com:1935/kool/kool/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/HCOqABQ.png" group-title="UK",London Live
-http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master.m3u8
-
-#EXTINF:-1 tvg-logo="http://www.channel4.com/media/images/Channel4/CorporatePortal/Benji/Logos/M4%20LOGO%20Breeze--(None).jpg" group-title="UK",More 4 
-https://ovh.easyview.eu/hls/more4.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Logo_Nat_Geo_Wild.svg/1200px-Logo_Nat_Geo_Wild.svg.png" group-title="UK",NatGeo Wild 
 http://playlist.onlybest.tv/ru/channel/6018265d6e7fc90bb1ef5f2c5ec81061/151/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/Nick_%28Logo%29.png" group-title="UK",Nickelodeon
-http://playlist.onlybest.tv/us/channel/6018265d6e7fc90bb1ef5f2c5ec81061/182/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://musor.tv/images/paramount_channel.png" group-title="UK",Paramount Channel
-http://playlist.onlybest.tv/ru/channel/6018265d6e7fc90bb1ef5f2c5ec81061/62/index.m3u8
-
-#EXTINF:-1 tvg-logo="http://channelpear.com/images/media/3219.jpg" group-title="UK",Quest
-https://ovh.easyview.eu/hls/quest.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dKMhqFR.jpg" group-title="UK",Quest Red
-https://ovh.easyview.eu/hls/questred.m3u8
-
-#EXTINF:-1 tvg-logo="http://3.bp.blogspot.com/-eJeBCu_CCXQ/UY1xgMCUU6I/AAAAAAAAZoI/gWz_vluPJ24/s1600/Really+logo+2013.png" group-title="UK",Really 
-https://ovh.easyview.eu/hls/really.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/XCBnJzR.png" group-title="UK",RT UK
 https://secure-streams.akamaized.net/rt-uk/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/oC2FzqY.png" group-title="UK",Sky News
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/oC2FzqY.png" group-title="UK",Sky News UK
 http://skydvn-nowtv-atv-prod.skydvn.com/atv/skynews/1404/live/04.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/Sony_Movie_Channel.png" group-title="UK",Sony Movie Channel
