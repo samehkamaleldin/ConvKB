@@ -18,9 +18,6 @@ https://ovh.easyview.eu//hls//bbcnews.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/j55hDLp.png" group-title="WORLD NEWS",France 24
 http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_900.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/oC2FzqY.png" group-title="WORLD NEWS",Sky News
-http://d59pscns5ugc8.cloudfront.net/cdhls/skynewsamericas/1013/live/06.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://www.watchallchannels.com/wp-content/uploads/2015/02/Aljazeera-arabic.jpg" group-title="QATAR",Al Jazeera (Opt-2)
 http://199.167.151.237:1935/live/sp15_1.stream/gmswf.m3u8
 
