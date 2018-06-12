@@ -1,0 +1,424 @@
+#EXTM3U
+
+#EXTINF:-1,UK: Al Jazeera English
+http://217.23.5.70:25461/live/anis/anis/962.ts
+#EXTINF:-1,UK: ALIBI
+http://217.23.5.70:25461/live/anis/anis/7722.ts
+#EXTINF:-1,UK: ANIMAL PLANET HD
+http://217.23.5.70:25461/live/anis/anis/4803.ts
+#EXTINF:-1,UK: BBC 1 HD
+http://217.23.5.70:25461/live/anis/anis/3306.ts
+#EXTINF:-1,UK: BBC 2
+http://217.23.5.70:25461/live/anis/anis/5820.ts
+#EXTINF:-1,UK: BBC 3
+http://217.23.5.70:25461/live/anis/anis/3309.ts
+#EXTINF:-1,UK: BBC 4 HD
+http://217.23.5.70:25461/live/anis/anis/7720.ts
+#EXTINF:-1,UK: BBC News
+http://217.23.5.70:25461/live/anis/anis/3307.ts
+#EXTINF:-1,UK: BBC One London
+http://217.23.5.70:25461/live/anis/anis/9107.ts
+#EXTINF:-1,UK: BBC WORLD NEWS
+http://217.23.5.70:25461/live/anis/anis/963.ts
+#EXTINF:-1,UK: Boomerang
+http://217.23.5.70:25461/live/anis/anis/9105.ts
+#EXTINF:-1,UK: CHALLENGE
+http://217.23.5.70:25461/live/anis/anis/7718.ts
+#EXTINF:-1,UK: CHANNEL 4 HD
+http://217.23.5.70:25461/live/anis/anis/9104.ts
+#EXTINF:-1,UK: CHANNEL 5  HD
+http://217.23.5.70:25461/live/anis/anis/9103.ts
+#EXTINF:-1,UK: College Music
+http://217.23.5.70:25461/live/anis/anis/964.ts
+#EXTINF:-1,UK: COMEDY CENTRAL HD
+http://217.23.5.70:25461/live/anis/anis/7726.ts
+#EXTINF:-1,UK: Comedy Central extra
+http://217.23.5.70:25461/live/anis/anis/9102.ts
+#EXTINF:-1,UK: Crime Investigation
+http://217.23.5.70:25461/live/anis/anis/9101.ts
+#EXTINF:-1,UK: Dave
+http://217.23.5.70:25461/live/anis/anis/9100.ts
+#EXTINF:-1,UK: Drama
+http://217.23.5.70:25461/live/anis/anis/9099.ts
+#EXTINF:-1,UK: Eden
+http://217.23.5.70:25461/live/anis/anis/9097.ts
+#EXTINF:-1,UK: Film 4
+http://217.23.5.70:25461/live/anis/anis/3334.ts
+#EXTINF:-1,UK: Food Network
+http://217.23.5.70:25461/live/anis/anis/3333.ts
+#EXTINF:-1,UK: FOX News
+http://217.23.5.70:25461/live/anis/anis/3336.ts
+#EXTINF:-1,UK: Gold
+http://217.23.5.70:25461/live/anis/anis/9096.ts
+#EXTINF:-1,UK: H2
+http://217.23.5.70:25461/live/anis/anis/9095.ts
+#EXTINF:-1,UK: HBO HD - UK
+http://217.23.5.70:25461/live/anis/anis/7724.ts
+#EXTINF:-1,UK: Heart TV
+http://217.23.5.70:25461/live/anis/anis/9094.ts
+#EXTINF:-1,UK: HOME & HEALTH
+http://217.23.5.70:25461/live/anis/anis/9093.ts
+#EXTINF:-1,UK: Horror Channel
+http://217.23.5.70:25461/live/anis/anis/890.ts
+#EXTINF:-1,UK: ITV
+http://217.23.5.70:25461/live/anis/anis/3337.ts
+#EXTINF:-1,UK: ITV 1 HD
+http://217.23.5.70:25461/live/anis/anis/5818.ts
+#EXTINF:-1,UK: ITV 2 HD
+http://217.23.5.70:25461/live/anis/anis/889.ts
+#EXTINF:-1,UK: ITV 3 HD
+http://217.23.5.70:25461/live/anis/anis/888.ts
+#EXTINF:-1,UK: ITV 4 HD
+http://217.23.5.70:25461/live/anis/anis/5819.ts
+#EXTINF:-1,UK: ITV Be
+http://217.23.5.70:25461/live/anis/anis/3344.ts
+#EXTINF:-1,UK: ITV Encore HD
+http://217.23.5.70:25461/live/anis/anis/3340.ts
+#EXTINF:-1,UK: Lifetime
+http://217.23.5.70:25461/live/anis/anis/9092.ts
+#EXTINF:-1,UK: LONDON LIVE
+http://217.23.5.70:25461/live/anis/anis/7723.ts
+#EXTINF:-1,UK: Motors TV
+http://217.23.5.70:25461/live/anis/anis/3345.ts
+#EXTINF:-1,UK: Pick TV
+http://217.23.5.70:25461/live/anis/anis/9091.ts
+#EXTINF:-1,UK: POP CAR
+http://217.23.5.70:25461/live/anis/anis/3359.ts
+#EXTINF:-1,UK: Quest
+http://217.23.5.70:25461/live/anis/anis/9090.ts
+#EXTINF:-1,UK: Real Lives
+http://217.23.5.70:25461/live/anis/anis/9089.ts
+#EXTINF:-1,UK: RTE 1 HD
+http://217.23.5.70:25461/live/anis/anis/881.ts
+#EXTINF:-1,UK: RTE 2
+http://217.23.5.70:25461/live/anis/anis/880.ts
+#EXTINF:-1,UK: RTE 2 HD
+http://217.23.5.70:25461/live/anis/anis/4823.ts
+#EXTINF:-1,UK: SKY 1
+http://217.23.5.70:25461/live/anis/anis/3364.ts
+#EXTINF:-1,UK: Sky 2
+http://217.23.5.70:25461/live/anis/anis/3365.ts
+#EXTINF:-1,UK: SONY CHANNEL 1 - UK
+http://217.23.5.70:25461/live/anis/anis/7727.ts
+#EXTINF:-1,UK: TCM
+http://217.23.5.70:25461/live/anis/anis/873.ts
+#EXTINF:-1,UK: TG4  IRISH UK
+http://217.23.5.70:25461/live/anis/anis/7717.ts
+#EXTINF:-1,UK: TV3 IRISH UK
+http://217.23.5.70:25461/live/anis/anis/7716.ts
+#EXTINF:-1,UK: UNIVERSAL CHANNEL HD
+http://217.23.5.70:25461/live/anis/anis/3397.ts
+#EXTINF:-1,UK: UTV -  IRISH/UK
+http://217.23.5.70:25461/live/anis/anis/7715.ts
+#EXTINF:-1,UK: Vintage UK
+http://217.23.5.70:25461/live/anis/anis/9088.ts
+#EXTINF:-1,UK: Watch
+http://217.23.5.70:25461/live/anis/anis/9087.ts
+#EXTINF:-1,UK: YESTERDAY
+http://217.23.5.70:25461/live/anis/anis/7725.ts
+#EXTINF:-1,______ Series uk ______
+http://217.23.5.70:25461/live/anis/anis/7704.ts
+#EXTINF:-1,UK: CBS Drama
+http://217.23.5.70:25461/live/anis/anis/4810.ts
+#EXTINF:-1,UK: CBS Reality
+http://217.23.5.70:25461/live/anis/anis/4811.ts
+#EXTINF:-1,UK: DMAX
+http://217.23.5.70:25461/live/anis/anis/3328.ts
+#EXTINF:-1,UK: E! HD
+http://217.23.5.70:25461/live/anis/anis/4815.ts
+#EXTINF:-1,UK: E4 HD
+http://217.23.5.70:25461/live/anis/anis/893.ts
+#EXTINF:-1,UK: Five
+http://217.23.5.70:25461/live/anis/anis/892.ts
+#EXTINF:-1,UK: FOX HD
+http://217.23.5.70:25461/live/anis/anis/3335.ts
+#EXTINF:-1,UK: More 4
+http://217.23.5.70:25461/live/anis/anis/887.ts
+#EXTINF:-1,UK: SYFY HD
+http://217.23.5.70:25461/live/anis/anis/949.ts
+#EXTINF:-1,UK: True Crime
+http://217.23.5.70:25461/live/anis/anis/4833.ts
+#EXTINF:-1,UK: True Entertainment
+http://217.23.5.70:25461/live/anis/anis/4834.ts
+#EXTINF:-1,UK: MTV BASE
+http://217.23.5.70:25461/live/anis/anis/4818.ts
+#EXTINF:-1,UK: MTV CLASSIC
+http://217.23.5.70:25461/live/anis/anis/4819.ts
+#EXTINF:-1,UK: MTV dance
+http://217.23.5.70:25461/live/anis/anis/886.ts
+#EXTINF:-1,UK: MTV HD
+http://217.23.5.70:25461/live/anis/anis/3346.ts
+#EXTINF:-1,UK: MTV HITS
+http://217.23.5.70:25461/live/anis/anis/885.ts
+#EXTINF:-1,UK: MTV Music
+http://217.23.5.70:25461/live/anis/anis/884.ts
+#EXTINF:-1,UK: MTV ROCKS
+http://217.23.5.70:25461/live/anis/anis/3352.ts
+#EXTINF:-1,______ Kids uk ______
+http://217.23.5.70:25461/live/anis/anis/7705.ts
+#EXTINF:-1,UK: Baby TV
+http://217.23.5.70:25461/live/anis/anis/3305.ts
+#EXTINF:-1,UK: Cartoon Network HD
+http://217.23.5.70:25461/live/anis/anis/3316.ts
+#EXTINF:-1,UK: Cartoonito
+http://217.23.5.70:25461/live/anis/anis/4809.ts
+#EXTINF:-1,UK: Disney Channel
+http://217.23.5.70:25461/live/anis/anis/947.ts
+#EXTINF:-1,UK: Disney Channel HD
+http://217.23.5.70:25461/live/anis/anis/4814.ts
+#EXTINF:-1,UK: Disney Junior
+http://217.23.5.70:25461/live/anis/anis/3326.ts
+#EXTINF:-1,UK: Disney XD
+http://217.23.5.70:25461/live/anis/anis/3327.ts
+#EXTINF:-1,UK: Nick Jnr Too
+http://217.23.5.70:25461/live/anis/anis/3355.ts
+#EXTINF:-1,UK: Nick Junior
+http://217.23.5.70:25461/live/anis/anis/4821.ts
+#EXTINF:-1,UK: Nickelodeon
+http://217.23.5.70:25461/live/anis/anis/3357.ts
+#EXTINF:-1,UK: Nicktoons
+http://217.23.5.70:25461/live/anis/anis/4822.ts
+#EXTINF:-1,______ Documentary uk ______
+http://217.23.5.70:25461/live/anis/anis/7706.ts
+#EXTINF:-1,UK: DISCOVERY CHANNEL
+http://217.23.5.70:25461/live/anis/anis/4812.ts
+#EXTINF:-1,UK: Discovery Science
+http://217.23.5.70:25461/live/anis/anis/939.ts
+#EXTINF:-1,UK: DISCOVERY HISTORY HD
+http://217.23.5.70:25461/live/anis/anis/941.ts
+#EXTINF:-1,UK: DISCOVERY INVESTIGATION
+http://217.23.5.70:25461/live/anis/anis/895.ts
+#EXTINF:-1,UK: Discovery Shed
+http://217.23.5.70:25461/live/anis/anis/4813.ts
+#EXTINF:-1,UK: Discovery Turbo
+http://217.23.5.70:25461/live/anis/anis/940.ts
+#EXTINF:-1,UK: Nat Geo Wild HD
+http://217.23.5.70:25461/live/anis/anis/3354.ts
+#EXTINF:-1,UK: National Geographic HD
+http://217.23.5.70:25461/live/anis/anis/882.ts
+#EXTINF:-1,UK: HISTORY HD
+http://217.23.5.70:25461/live/anis/anis/891.ts
+#EXTINF:-1,UK: TRAVEL CHANNEL  1-
+http://217.23.5.70:25461/live/anis/anis/7728.ts
+#EXTINF:-1,______ Cinema uk  ______
+http://217.23.5.70:25461/live/anis/anis/7702.ts
+#EXTINF:-1,UK: BOX OFFICE 3D
+http://217.23.5.70:25461/live/anis/anis/5812.ts
+#EXTINF:-1,UK: BOX OFFICE HD 1
+http://217.23.5.70:25461/live/anis/anis/5816.ts
+#EXTINF:-1,UK: BOX OFFICE HD 2
+http://217.23.5.70:25461/live/anis/anis/5815.ts
+#EXTINF:-1,UK: BOX OFFICE HD 3
+http://217.23.5.70:25461/live/anis/anis/5814.ts
+#EXTINF:-1,UK: BOX OFFICE HD 4
+http://217.23.5.70:25461/live/anis/anis/5813.ts
+#EXTINF:-1,UK: Sky Arts
+http://217.23.5.70:25461/live/anis/anis/3367.ts
+#EXTINF:-1,UK: SKY ATLANTIC FHD
+http://217.23.5.70:25461/live/anis/anis/3368.ts
+#EXTINF:-1,UK: Sky Cinema Sc-Fi & Horror HD
+http://217.23.5.70:25461/live/anis/anis/943.ts
+#EXTINF:-1,UK: Sky Living HD
+http://217.23.5.70:25461/live/anis/anis/3373.ts
+#EXTINF:-1,UK: SKY Cinema Hits HD
+http://217.23.5.70:25461/live/anis/anis/945.ts
+#EXTINF:-1,UK: Sky Movies Action HD
+http://217.23.5.70:25461/live/anis/anis/4799.ts
+#EXTINF:-1,UK: Sky Movies Comedy HD
+http://217.23.5.70:25461/live/anis/anis/3369.ts
+#EXTINF:-1,UK: Sky Movies Disney HD
+http://217.23.5.70:25461/live/anis/anis/3371.ts
+#EXTINF:-1,UK: Sky Movies Drama HD
+http://217.23.5.70:25461/live/anis/anis/4825.ts
+#EXTINF:-1,UK: Sky Movies Family HD
+http://217.23.5.70:25461/live/anis/anis/3372.ts
+#EXTINF:-1,UK: SKY Movies Greats HD
+http://217.23.5.70:25461/live/anis/anis/3377.ts
+#EXTINF:-1,UK: Sky Movies Premiere
+http://217.23.5.70:25461/live/anis/anis/3382.ts
+#EXTINF:-1,UK: Sky Movies Premiere HD
+http://217.23.5.70:25461/live/anis/anis/4800.ts
+#EXTINF:-1,UK: Sky Movies Sci-Fi
+http://217.23.5.70:25461/live/anis/anis/942.ts
+#EXTINF:-1,UK: Sky Movies Select
+http://217.23.5.70:25461/live/anis/anis/4826.ts
+#EXTINF:-1,UK: Sky Movies Showcase HD
+http://217.23.5.70:25461/live/anis/anis/3380.ts
+#EXTINF:-1,UK: Sky Movies Thriller HD
+http://217.23.5.70:25461/live/anis/anis/4802.ts
+#EXTINF:-1,UK: Sky News
+http://217.23.5.70:25461/live/anis/anis/954.ts
+#EXTINF:-1,UK: Sky Select HD
+http://217.23.5.70:25461/live/anis/anis/948.ts
+#EXTINF:-1,UK: True Movies 1
+http://217.23.5.70:25461/live/anis/anis/872.ts
+#EXTINF:-1,UK: True Movies 2
+http://217.23.5.70:25461/live/anis/anis/871.ts
+#EXTINF:-1,______ Sports uk ______
+http://217.23.5.70:25461/live/anis/anis/7703.ts
+#EXTINF:-1,UK: AT THE RACES HD
+http://217.23.5.70:25461/live/anis/anis/7711.ts
+#EXTINF:-1,UK: RACING UK HD
+http://217.23.5.70:25461/live/anis/anis/5817.ts
+#EXTINF:-1,UK: BT Sport 1 HD
+http://217.23.5.70:25461/live/anis/anis/953.ts
+#EXTINF:-1,UK: BT Sport 2 HD
+http://217.23.5.70:25461/live/anis/anis/952.ts
+#EXTINF:-1,UK: BT Sport 3 HD
+http://217.23.5.70:25461/live/anis/anis/951.ts
+#EXTINF:-1,UK: BT Sport ESPN
+http://217.23.5.70:25461/live/anis/anis/4806.ts
+#EXTINF:-1,UK: BT Sport ESPN HD
+http://217.23.5.70:25461/live/anis/anis/950.ts
+#EXTINF:-1,UK: BT SPORT EUROPE
+http://217.23.5.70:25461/live/anis/anis/3313.ts
+#EXTINF:-1,UK: Eurosport 1 HD
+http://217.23.5.70:25461/live/anis/anis/3331.ts
+#EXTINF:-1,UK: Eurosport 2 HD
+http://217.23.5.70:25461/live/anis/anis/3332.ts
+#EXTINF:-1,UK: Premier Sports HD
+http://217.23.5.70:25461/live/anis/anis/3361.ts
+#EXTINF:-1,UK: SKY SPORTS 1 HD (Main Event)
+http://217.23.5.70:25461/live/anis/anis/4828.ts
+#EXTINF:-1,UK: SKY SPORTS 2 HD (CRICKET)
+http://217.23.5.70:25461/live/anis/anis/4829.ts
+#EXTINF:-1,UK: SKY SPORTS 3 HD (action)
+http://217.23.5.70:25461/live/anis/anis/4830.ts
+#EXTINF:-1,UK: SKY SPORTS 4 HD (golf)
+http://217.23.5.70:25461/live/anis/anis/4831.ts
+#EXTINF:-1,UK: SKY SPORTS 5 HD (Premier Leauge)
+http://217.23.5.70:25461/live/anis/anis/4832.ts
+#EXTINF:-1,UK: Sky Sports Arena HD
+http://217.23.5.70:25461/live/anis/anis/14755.ts
+#EXTINF:-1,UK: Sky Sports Football HD
+http://217.23.5.70:25461/live/anis/anis/14756.ts
+#EXTINF:-1,UK: Sky Sports Mix HD
+http://217.23.5.70:25461/live/anis/anis/14754.ts
+#EXTINF:-1,UK: Sky Sports F1 HD
+http://217.23.5.70:25461/live/anis/anis/956.ts
+#EXTINF:-1,UK: MOTORSPORT HD
+http://217.23.5.70:25461/live/anis/anis/3391.ts
+#EXTINF:-1,UK: SKY SPORTS NEWS HD
+http://217.23.5.70:25461/live/anis/anis/3392.ts
+#EXTINF:-1,UK: BOXNATION HD
+http://217.23.5.70:25461/live/anis/anis/4804.ts
+#EXTINF:-1,UK: EIR SPORT 1
+http://217.23.5.70:25461/live/anis/anis/7710.ts
+#EXTINF:-1,UK: EIR SPORT 2
+http://217.23.5.70:25461/live/anis/anis/7709.ts
+#EXTINF:-1,UK: MAN UTD HD
+http://217.23.5.70:25461/live/anis/anis/5811.ts
+#EXTINF:-1,UK: LIVERPOOL FC TV
+http://217.23.5.70:25461/live/anis/anis/7712.ts
+#EXTINF:-1,UK: CHELSEA TV HD
+http://217.23.5.70:25461/live/anis/anis/7721.ts
+#EXTINF:-1,UK: SKYBOX OFFICE PPV - UK
+http://217.23.5.70:25461/live/anis/anis/7708.ts
+#EXTINF:-1,UK: BT Sport Extra 1
+http://217.23.5.70:25461/live/anis/anis/9086.ts
+#EXTINF:-1,UK: BT Sport Extra 2
+http://217.23.5.70:25461/live/anis/anis/9085.ts
+#EXTINF:-1,UK: BT Sport Extra 3
+http://217.23.5.70:25461/live/anis/anis/9084.ts
+#EXTINF:-1,UK: BT Sport Extra 4
+http://217.23.5.70:25461/live/anis/anis/9083.ts
+#EXTINF:-1,UK: BT Sport Extra 5
+http://217.23.5.70:25461/live/anis/anis/9082.ts
+#EXTINF:-1,UK: BT Sport Extra 6
+http://217.23.5.70:25461/live/anis/anis/9081.ts
+#EXTINF:-1,UK: Ginxe Sports TV
+http://217.23.5.70:25461/live/anis/anis/14753.ts
+#EXTINF:-1,UK: Horse & Country
+http://217.23.5.70:25461/live/anis/anis/14750.ts
+#EXTINF:-1,USA: A&E
+http://217.23.5.70:25461/live/anis/anis/15692.ts
+#EXTINF:-1,USA: ABC
+http://217.23.5.70:25461/live/anis/anis/15691.ts
+#EXTINF:-1,USA: AMC
+http://217.23.5.70:25461/live/anis/anis/15690.ts
+#EXTINF:-1,USA: ANIMAL PLANET HD
+http://217.23.5.70:25461/live/anis/anis/15689.ts
+#EXTINF:-1,USA: Bein Sports  HD
+http://217.23.5.70:25461/live/anis/anis/15688.ts
+#EXTINF:-1,USA: BRAVO
+http://217.23.5.70:25461/live/anis/anis/15687.ts
+#EXTINF:-1,USA: CARTOON NETWORK
+http://217.23.5.70:25461/live/anis/anis/15686.ts
+#EXTINF:-1,USA: CBS
+http://217.23.5.70:25461/live/anis/anis/15685.ts
+#EXTINF:-1,USA: Cinemax HD
+http://217.23.5.70:25461/live/anis/anis/15683.ts
+#EXTINF:-1,USA: CNBC HD
+http://217.23.5.70:25461/live/anis/anis/15681.ts
+#EXTINF:-1,USA: CNN HD
+http://217.23.5.70:25461/live/anis/anis/15680.ts
+#EXTINF:-1,USA: COMEDY CENTRAL
+http://217.23.5.70:25461/live/anis/anis/15679.ts
+#EXTINF:-1,USA: DISCOVERY
+http://217.23.5.70:25461/live/anis/anis/15678.ts
+#EXTINF:-1,USA: Discovery Science HD
+http://217.23.5.70:25461/live/anis/anis/15677.ts
+#EXTINF:-1,USA: E!
+http://217.23.5.70:25461/live/anis/anis/15676.ts
+#EXTINF:-1,USA: ESPN 2
+http://217.23.5.70:25461/live/anis/anis/15675.ts
+#EXTINF:-1,USA: ESPN HD
+http://217.23.5.70:25461/live/anis/anis/15674.ts
+#EXTINF:-1,USA: FIGHT NETWORK (HD)
+http://217.23.5.70:25461/live/anis/anis/15673.ts
+#EXTINF:-1,USA: FOOD NETWORK
+http://217.23.5.70:25461/live/anis/anis/15672.ts
+#EXTINF:-1,USA: FOX NEWS
+http://217.23.5.70:25461/live/anis/anis/15671.ts
+#EXTINF:-1,USA: FOX SPORTS 1
+http://217.23.5.70:25461/live/anis/anis/15670.ts
+#EXTINF:-1,USA: FOX SPORTS 1 HD
+http://217.23.5.70:25461/live/anis/anis/15669.ts
+#EXTINF:-1,USA: Fox Sports 2
+http://217.23.5.70:25461/live/anis/anis/15668.ts
+#EXTINF:-1,USA: FX HD
+http://217.23.5.70:25461/live/anis/anis/15667.ts
+#EXTINF:-1,USA: FXM
+http://217.23.5.70:25461/live/anis/anis/15666.ts
+#EXTINF:-1,USA: FXX
+http://217.23.5.70:25461/live/anis/anis/15665.ts
+#EXTINF:-1,USA: HALLMARK
+http://217.23.5.70:25461/live/anis/anis/15664.ts
+#EXTINF:-1,USA: HBO
+http://217.23.5.70:25461/live/anis/anis/15663.ts
+#EXTINF:-1,USA: HBO Comedy
+http://217.23.5.70:25461/live/anis/anis/15662.ts
+#EXTINF:-1,USA: HBO Family HD
+http://217.23.5.70:25461/live/anis/anis/15661.ts
+#EXTINF:-1,USA: HBO SIGNATURE
+http://217.23.5.70:25461/live/anis/anis/15660.ts
+#EXTINF:-1,USA: HBO ZONE
+http://217.23.5.70:25461/live/anis/anis/15659.ts
+#EXTINF:-1,USA: HGTV
+http://217.23.5.70:25461/live/anis/anis/15658.ts
+#EXTINF:-1,USA: HISTORY HD
+http://217.23.5.70:25461/live/anis/anis/15657.ts
+#EXTINF:-1,USA: INVESTIGATION DISCOVERY
+http://217.23.5.70:25461/live/anis/anis/15656.ts
+#EXTINF:-1,USA: LIFETIME
+http://217.23.5.70:25461/live/anis/anis/15655.ts
+#EXTINF:-1,USA: Nat Geo
+http://217.23.5.70:25461/live/anis/anis/15654.ts
+#EXTINF:-1,USA: NAT GEO WILD
+http://217.23.5.70:25461/live/anis/anis/15653.ts
+#EXTINF:-1,USA: NBA TV HD1
+http://217.23.5.70:25461/live/anis/anis/15652.ts
+#EXTINF:-1,USA: SHOWTIME HD
+http://217.23.5.70:25461/live/anis/anis/15651.ts
+#EXTINF:-1,USA: SPIKE TV
+http://217.23.5.70:25461/live/anis/anis/15650.ts
+#EXTINF:-1,USA: STARZ
+http://217.23.5.70:25461/live/anis/anis/15649.ts
+#EXTINF:-1,USA: SYFY
+http://217.23.5.70:25461/live/anis/anis/15648.ts
+#EXTINF:-1,USA: TLC
+http://217.23.5.70:25461/live/anis/anis/15647.ts
+#EXTINF:-1,USA: VH1
+http://217.23.5.70:25461/live/anis/anis/15646.ts
+#EXTINF:-1,USA: WWE PPV
+http://217.23.5.70:25461/live/anis/anis/15645.ts
